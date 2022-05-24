@@ -1,0 +1,1 @@
+# prj_nuxt_insplanet
