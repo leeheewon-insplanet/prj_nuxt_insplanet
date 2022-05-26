@@ -35,6 +35,9 @@ export default {
     // https://go.nuxtjs.dev/stylelint
     '@nuxtjs/stylelint-module',
   ],
+  styleResources: {
+    scss: ['@assets/scss/_variables.scss'],
+  },
 
   // Modules: https://go.nuxtjs.dev/config-modules
   modules: [],
