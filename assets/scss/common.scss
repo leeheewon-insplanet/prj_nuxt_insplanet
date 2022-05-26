@@ -1,0 +1,18 @@
+// component
+// MainText
+.txt-wrap {
+  text-align: center;
+  .category {
+    display: block;
+    font-size: 1.35417vw;
+    font-weight: bolder;
+  }
+  .title {
+    display: inline-block;
+    padding: 0.52083vw 0vw;
+    font-size: 2.91667vw;
+    font-weight: 900;
+    line-height: 109.43396%;
+    white-space: pre-wrap;
+  }
+}
