@@ -34,9 +34,10 @@ export default {
     '@nuxtjs/eslint-module',
     // https://go.nuxtjs.dev/stylelint
     '@nuxtjs/stylelint-module',
+    '@nuxtjs/style-resources',
   ],
   styleResources: {
-    scss: ['@assets/scss/_variables.scss'],
+    scss: ['./assets/scss/_variables.scss'],
   },
 
   // Modules: https://go.nuxtjs.dev/config-modules
