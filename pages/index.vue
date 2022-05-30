@@ -1,14 +1,14 @@
 <template>
   <!-- START : 메인 페이지 -->
   <div id="wrapper">
-    <MainText />
+    <!-- <WorkText /> -->
   </div>
 </template>
 
 <script>
-import MainText from '../components/main/mainText.vue'
+// import WorkText from '../components/main/WorkText.vue'
 export default {
   name: 'MainPage',
-  components: { MainText },
+  // components: { WorkText },
 }
 </script>
