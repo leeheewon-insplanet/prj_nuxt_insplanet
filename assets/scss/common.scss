@@ -2,9 +2,8 @@
 @import url(../css/NotoSansKR.css);
 
 // component
-// MainText
+// main - MainText
 .txt-wrap {
-  font-family: $KR-font;
   text-align: center;
   .category {
     display: block;
@@ -18,5 +17,48 @@
     font-weight: 900;
     line-height: 109.43396%;
     white-space: pre-wrap;
+  }
+}
+
+// main - WorkText
+.work-txt-wrap {
+  .title {
+    font-size: 4.16667vw;
+    line-height: 1.2;
+    .em {
+      font-weight: 900;
+    }
+  }
+  .info {
+    margin-top: 0.83333vw;
+    font-size: 1.04167vw;
+    li + li {
+      margin-top: 0.20833vw;
+    }
+  }
+  .desc {
+    margin-top: 4.16667vw;
+    font-size: 0.9375vw;
+    line-height: 166.66667%;
+    white-space: pre-wrap;
+  }
+  .device-ico {
+    display: flex;
+    margin-top: 5.20833vw;
+    li {
+      width: 1.66667vw;
+      height: 1.875vw;
+      &.mobile {
+        background: url('../images/ico/ico_mobile.svg') no-repeat center center;
+        background-size: contain;
+      }
+      &.pc {
+        background: url('../images/ico/ico_pc.svg') no-repeat center center;
+        background-size: contain;
+      }
+      + li {
+        margin-left: 1.25vw;
+      }
+    }
   }
 }
