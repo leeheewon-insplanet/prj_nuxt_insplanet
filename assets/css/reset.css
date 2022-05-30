@@ -1,3 +1,5 @@
+@import url(./NotoSansKR.css);
+
 html,
 body,
 div,
@@ -83,7 +85,7 @@ video {
   font: inherit;
   font-family: 'NotoSansKR', sans-serif;
   font-weight: 400;
-  color: #1f2533;
+  color: #222;
   vertical-align: baseline;
   box-sizing: border-box;
   outline-style: none;
