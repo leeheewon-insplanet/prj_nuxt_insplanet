@@ -62,3 +62,35 @@
     }
   }
 }
+
+// main - TitleText
+.prj-txt-wrap {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: baseline;
+  justify-content: space-between;
+  padding: 1.5625vw 0vw 2.29167vw;
+  max-width: 1260px;
+  font-size: 2.5vw;
+  font-weight: 900;
+  line-height: 120%;
+  .layout-left {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    .category {
+      font-size: 1.04167vw;
+      font-weight: 900;
+    }
+    .title {
+      font-weight: 900;
+    }
+  }
+  .layout-right {
+    font-size: 1.04167vw;
+    font-weight: 900;
+  }
+  + .prj-txt-wrap {
+    border-bottom: 2px solid rgba(0, 0, 0, 0.1);
+  }
+}
