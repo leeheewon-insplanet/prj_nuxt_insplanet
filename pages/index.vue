@@ -1,14 +1,23 @@
 <template>
   <!-- START : 메인 페이지 -->
-  <div id="wrapper">
-    <!-- <WorkText /> -->
+  <div id="wrapper" class="main">
+    <div class="list-item" :style="{ backgroundImage: `url(${MainImage})` }">
+      <MainText />
+    </div>
   </div>
 </template>
 
 <script>
-// import WorkText from '../components/main/WorkText.vue'
+import MainImage from '@/assets/images/img/img_project17_head.png'
+import MainText from '@/components/main/MainText.vue'
+
 export default {
   name: 'MainPage',
-  // components: { WorkText },
+  components: { MainText },
+  data() {
+    return {
+      MainImage,
+    }
+  },
 }
 </script>
