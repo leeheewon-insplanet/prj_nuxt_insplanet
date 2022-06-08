@@ -30,19 +30,28 @@
       </NuxtLink>
     </h1>
     <ul class="menu-list">
-      <li><button type="button" class="menu-item">Project</button></li>
-      <li><button type="button" class="menu-item">Company</button></li>
       <li>
-        <button type="button" class="menu-item">
-          Company Brochure <i class="ico-download"></i>
-        </button>
+        <NuxtLink to="/project" class="menu-item">Project</NuxtLink>
+      </li>
+      <li><NuxtLink to="/company" class="menu-item">Company</NuxtLink></li>
+      <li>
+        <a :href="Brochure" class="menu-item"
+          >Company Brochure <i class="ico-download"></i
+        ></a>
       </li>
     </ul>
   </header>
 </template>
 
 <script>
+import Brochure from '@/assets/brochure/insplanet_brief2022.pdf'
+
 export default {
   name: 'HeaderComponent',
+  data() {
+    return {
+      Brochure,
+    }
+  },
 }
 </script>
