@@ -35,7 +35,7 @@
       </li>
       <li><NuxtLink to="/company" class="menu-item">Company</NuxtLink></li>
       <li>
-        <a :href="Brochure" class="menu-item"
+        <a href="/insplanet_brief2022.pdf" target="_blank" class="menu-item"
           >Company Brochure <i class="ico-download"></i
         ></a>
       </li>
@@ -44,14 +44,10 @@
 </template>
 
 <script>
-import Brochure from '@/assets/brochure/insplanet_brief2022.pdf'
-
 export default {
   name: 'HeaderComponent',
   data() {
-    return {
-      Brochure,
-    }
+    return {}
   },
 }
 </script>
