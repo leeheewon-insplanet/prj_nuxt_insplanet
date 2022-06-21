@@ -20,10 +20,11 @@ export default {
     '@assets/scss/common.scss',
     '@assets/scss/responsive/pc.scss',
     '@assets/scss/responsive/mo.scss',
+    'swiper/css/swiper.css',
   ],
 
   // Plugins to run before rendering page: https://go.nuxtjs.dev/config-plugins
-  plugins: [{ src: '~/plugins/swiper-bundle.min.js', ssr: false }],
+  plugins: [{ src: '@/plugins/vue-awesome-swiper', mode: 'client' }],
 
   // Auto import components: https://go.nuxtjs.dev/config-components
   components: true,
