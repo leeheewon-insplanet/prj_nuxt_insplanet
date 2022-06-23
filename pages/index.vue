@@ -47,7 +47,7 @@ export default {
       ],
       swiperOption: {
         loop: true,
-        slidesPerView: 2,
+        slidesPerView: 1,
         // pagination: {
         //   el: '.swiper-pagination',
         //   clickable: true,
@@ -60,18 +60,18 @@ export default {
         },
         breakpoints: {
           // when window width is >= 480px
-          480: {
-            slidesPerView: 2,
-            spaceBetween: 10,
-          },
+          // 480: {
+          //   slidesPerView: 2,
+          //   spaceBetween: 10,
+          // },
           // when window width is >= 640px
-          640: {
-            slidesPerView: 3,
-            spaceBetween: 20,
-          },
-          1264: {
-            slidesPerView: 1,
-          },
+          // 640: {
+          //   slidesPerView: 3,
+          //   spaceBetween: 20,
+          // },
+          // 1264: {
+          //   slidesPerView: 1,
+          // },
         },
       },
     }
