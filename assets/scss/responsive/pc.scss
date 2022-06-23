@@ -1,5 +1,48 @@
 // main
 .main {
+  // swiper
+  .swiper-container {
+    .swiper-wrapper {
+    }
+  }
+  .swiper-button-prev,
+  .swiper-container-rtl .swiper-button-next,
+  .swiper-button-next,
+  .swiper-container-rtl .swiper-button-prev {
+    &::after {
+      content: '';
+      position: absolute;
+      top: 0;
+      left: 40px;
+      z-index: 1;
+      width: 1.5625vw;
+      height: 2.34375vw;
+      background: url('../../images/ico/ico_swiper_arrow.svg') no-repeat center
+        center;
+      opacity: 0.5;
+      transition: transform 0.2s ease-in-out, -webkit-transform 0.2s ease-in-out,
+        opacity 0.15s ease-in-out;
+    }
+    &:hover {
+      &::after {
+        opacity: 1;
+        transform: scale(1.1);
+      }
+    }
+  }
+  .swiper-button-next,
+  .swiper-container-rtl .swiper-button-prev {
+    &::after {
+      left: auto;
+      right: 40px;
+      transform: rotate(180deg);
+    }
+    &:hover {
+      &::after {
+        transform: scale(1.1) rotate(180deg);
+      }
+    }
+  }
   .list-item {
     display: flex;
     justify-content: center;
