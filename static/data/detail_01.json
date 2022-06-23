@@ -1,0 +1,28 @@
+[
+  "detail_01",
+  {
+    "subject": "",
+    "title": {
+      "line1": "",
+      "line2": ""
+    },
+    "device": "",
+    "date": "",
+    "desc": "",
+    "deviceType": "",
+    "image": [
+      {
+        "pc": "",
+        "mobile": ""
+      },
+      {
+        "pc": "",
+        "mobile": ""
+      },
+      {
+        "pc": "",
+        "mobile": ""
+      }
+    ]
+  }
+]
